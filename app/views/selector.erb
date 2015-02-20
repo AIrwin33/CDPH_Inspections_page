@@ -1,0 +1,7 @@
+<select name="ph_indicator">
+      <% @indicators.each do |indicator| %>
+        <option value="<%=indicator.id%>"><%= indicator.name %></option>
+      <% end %>
+  </select>
+
+
